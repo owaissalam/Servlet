@@ -14,7 +14,8 @@
 		<p>This page is : Servlet</p>
 		
 		<form action="<%= application.getContextPath() %>/third" method="post">
-			<button type="submit">Submit</button>
+		<input name="message" type="text" placeholder="Enter text here ">
+		<button type="submit">Submit</button>
 		</form>
 	</div>
 </body>
